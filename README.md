@@ -1,2 +1,2 @@
 # SoftUniLab
-This is my first Lab work 
+Tech modul first part Lab and homework problems. 
