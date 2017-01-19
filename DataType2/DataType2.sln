@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleLatinLettersCombo", "TripleLatinLettersCombo\TripleLatinLettersCombo.csproj", "{C6DF6014-B6BF-4A46-B616-F3D21A551DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{469265DE-75E2-4053-8E81-0E67C4C2B742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{13245A94-E8D4-490E-A7F9-4EEE7B8557B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6DF6014-B6BF-4A46-B616-F3D21A551DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DF6014-B6BF-4A46-B616-F3D21A551DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DF6014-B6BF-4A46-B616-F3D21A551DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DF6014-B6BF-4A46-B616-F3D21A551DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469265DE-75E2-4053-8E81-0E67C4C2B742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469265DE-75E2-4053-8E81-0E67C4C2B742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469265DE-75E2-4053-8E81-0E67C4C2B742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469265DE-75E2-4053-8E81-0E67C4C2B742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13245A94-E8D4-490E-A7F9-4EEE7B8557B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13245A94-E8D4-490E-A7F9-4EEE7B8557B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13245A94-E8D4-490E-A7F9-4EEE7B8557B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13245A94-E8D4-490E-A7F9-4EEE7B8557B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
