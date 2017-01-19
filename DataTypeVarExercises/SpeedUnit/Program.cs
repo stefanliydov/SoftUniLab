@@ -26,10 +26,6 @@ namespace SpeedUnit
             float test3 = hours + minutes / 60f + seconds / 60f / 60f;
             float mPerH= ((distance / 1000) / test2) / 1.609f;
             Console.WriteLine(mPerH);
-
-
-
-
         }
     }
 }
