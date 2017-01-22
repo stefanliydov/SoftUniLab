@@ -18,11 +18,11 @@ namespace CentToNanoseconds
             ulong seconds = minutes * 60;
             decimal miliseconds = seconds * 1000;
             decimal nano = miliseconds * 1000000;
-            Console.WriteLine(hours);
-            Console.WriteLine(minutes);
-            Console.WriteLine(seconds);
-            Console.WriteLine(miliseconds);
-            Console.WriteLine(nano);
+            decimal microseconds = miliseconds * 1000;
+            
+            Console.WriteLine($"{cent} centuries = {years} years = {days} days = {hours} hours = {minutes} minutes = {seconds} seconds = {miliseconds} miliseconds = {microseconds} microseconds = {nano} nanoseconds");
+
+
         }
     }                                     
 }
