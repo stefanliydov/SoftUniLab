@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCIItable", "ASCIItable\AS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentIngSize", "DifferentIngSize\DifferentIngSize.csproj", "{EDAB3F83-237E-47A8-B750-144C17CBD21C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaThePhotographer", "TheaThePhotographer\TheaThePhotographer.csproj", "{F81D4EE9-20FE-4A08-9E81-7D617371C908}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{EDAB3F83-237E-47A8-B750-144C17CBD21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDAB3F83-237E-47A8-B750-144C17CBD21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDAB3F83-237E-47A8-B750-144C17CBD21C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81D4EE9-20FE-4A08-9E81-7D617371C908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81D4EE9-20FE-4A08-9E81-7D617371C908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81D4EE9-20FE-4A08-9E81-7D617371C908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81D4EE9-20FE-4A08-9E81-7D617371C908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
