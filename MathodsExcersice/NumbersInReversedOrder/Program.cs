@@ -11,13 +11,16 @@ namespace NumbersInReversedOrder
         static void Main(string[] args)
         {
        
-                string input = Console.ReadLine();
-
-                for (int i = input.Length - 1; i >= 0; i--)
+                int input = int.Parse(Console.ReadLine());
+            string inputString = input.ToString();
+            string revers = string.Empty;
+                for (int i = inputString.Length - 1; i >= 0; i--)
                 {
-                    Console.Write(input[i]);
+                revers += inputString[i];
+                    Console.Write(inputString[i]);
                 }
-                Console.WriteLine();
+            var toNum = Convert.ToInt32(revers);
+           
             }
     }
 }

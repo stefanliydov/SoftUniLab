@@ -11,21 +11,32 @@ namespace MasterNumbers
         static void Main(string[] args)
         {
             var num = int.Parse(Console.ReadLine());
-        }
-
-        static int ReverseNumber(int num)
-        {
-            var numString = num.ToString();
-            var reversedString = string.Empty;
-            for(int i =0; i >= numString.Length -1; i--)
+             
+             
+            for (int i = 232; i <= num; i++)
             {
-                reversedString += numString[i];
+                
+                if (ReverseNumber(i) == true && SumOfDigitsDevBySeven(i) == true && EvenDigit(i) == true)
+                     Console.WriteLine(i);
             }
 
-            var reversedNum = int.Parse(reversedString);
-            return reversedNum;
         }
-        static void SumOfDigitsDevBySeven(int num)
+
+        static bool ReverseNumber(int num)
+        {
+            var numString = num.ToString();
+            if (numString.Length < 4 && numString[0] == numString[numString.Length - 1])
+                return true;
+            else if (numString.Length < 6 && numString[0] == numString[numString.Length - 1] && numString[1] == numString[numString.Length - 2])
+                return true;
+            else if (numString.Length < 8 && numString[0] == numString[numString.Length - 1] && numString[1] == numString[numString.Length - 2]
+                && numString[2] == numString[numString.Length - 3])
+                return true;
+            else
+                return false;
+           
+        }
+        static bool SumOfDigitsDevBySeven(int num)
         {
             var sum = 0; 
 
@@ -36,7 +47,28 @@ namespace MasterNumbers
                 num /= 10; 
             }
             if (sum % 7 == 0)
-               Console.WriteLine(sum);                             
+                return true;
+            else
+                return false;                                   
         }
-      }
+        public static bool EvenDigit(int num)
+        {
+            var checker = 0;
+            var evenDigit = 0;
+            while (num> 0)
+            {
+                checker = num % 10;
+                num /= 10;
+                if (checker % 2 == 0)
+                {
+                    evenDigit = checker;
+                    return true;
+                }
+                
+            }
+            return false;
+        }
+       
+
+    }
 }
