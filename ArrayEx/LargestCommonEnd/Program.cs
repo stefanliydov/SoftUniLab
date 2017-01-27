@@ -14,7 +14,9 @@ namespace LargestCommonEnd
             string[] secondArray = Console.ReadLine().Split(' ');
 
             int count = 0;
+            int Maxcount = 0;
             int revCount = 0;
+            int revMaxCount = 0;
             var arrDiff = Math.Max(firstArray.Length, secondArray.Length) - Math.Min(firstArray.Length, secondArray.Length);
             if (firstArray.Length >= secondArray.Length)
             {
@@ -23,7 +25,12 @@ namespace LargestCommonEnd
                 {
                     if (firstArray[i] == secondArray[i])
                         count++;
-                    else break;
+                    else
+                    {
+                        if (Maxcount < count)
+                            Maxcount = count;
+                    }
+                    count = 0;
                         
 
                 }
@@ -32,7 +39,12 @@ namespace LargestCommonEnd
 
                     if (firstArray[(i + arrDiff)] == secondArray[i])
                         revCount++;
-                    else break;
+                    else
+                    {
+                        if (revMaxCount < revCount)
+                            revMaxCount = revCount;
+                    }
+                    revCount = 0;
 
                 }
                 
@@ -45,17 +57,28 @@ namespace LargestCommonEnd
                 {
                     if( firstArray[i] == secondArray[i])
                         count++;
-                    else break;
+                   
+                  else
+                    {
+                        if (Maxcount < count)
+                            Maxcount = count;
+                    }
+                    count = 0;
                 }
                 for (int i = firstArray.Length-1; i >= 0; i--)
                 {
                     if (firstArray[i] == secondArray[i+arrDiff])
                         revCount++;
-                    else break;
+                    else
+                    {
+                        if (revMaxCount < revCount)
+                            revMaxCount = revCount;
+                    }
+                    revCount = 0;
                 }
 
             }
-            Console.WriteLine(Math.Max(count, revCount));
+            Console.WriteLine(Math.Max(revMaxCount, Maxcount));
             
         }
     }
