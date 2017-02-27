@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulationCounter", "Popula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonArmy", "DragonArmy\DragonArmy.csproj", "{F4306572-A533-4DFA-849F-CAA28A93EADE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterRepetition", "LetterRepetition\LetterRepetition.csproj", "{C813A352-731E-4486-8035-21674FCBF3E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dict-Ref", "Dict-Ref\Dict-Ref.csproj", "{8DDE779D-56CE-4DBC-9003-E58145220ACB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{F4306572-A533-4DFA-849F-CAA28A93EADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4306572-A533-4DFA-849F-CAA28A93EADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4306572-A533-4DFA-849F-CAA28A93EADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C813A352-731E-4486-8035-21674FCBF3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C813A352-731E-4486-8035-21674FCBF3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C813A352-731E-4486-8035-21674FCBF3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C813A352-731E-4486-8035-21674FCBF3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDE779D-56CE-4DBC-9003-E58145220ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDE779D-56CE-4DBC-9003-E58145220ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDE779D-56CE-4DBC-9003-E58145220ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDE779D-56CE-4DBC-9003-E58145220ACB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
