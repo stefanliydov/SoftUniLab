@@ -10,8 +10,8 @@ namespace ExchangeVariableValues
     {
         static void Main(string[] args)
         {
-            var a = 5;
-            var b = 10;
+            var a = int.Parse(Console.ReadLine());
+            var b = int.Parse(Console.ReadLine());
             var c = a;
             Console.WriteLine("Before:");
             Console.WriteLine(" a = {0}", a );
