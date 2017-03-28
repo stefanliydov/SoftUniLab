@@ -14,6 +14,7 @@ namespace ClosestTwoPoints
         {
             int n = int.Parse(Console.ReadLine());
             var arrayPoints = new string[n];
+            var newArr = new Point[n];
             for (int i = 0; i < n; i++)
             {
                 var coordinates = (Console.ReadLine());

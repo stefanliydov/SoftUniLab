@@ -26,7 +26,16 @@ namespace DistanceBetweenPoints
             };
 
             double result = Math.Sqrt((firstPoint.x - secondsPoint.x) * (firstPoint.x - secondsPoint.x) + (firstPoint.y - secondsPoint.y) * (firstPoint.y - secondsPoint.y));
-            Console.WriteLine("{0:f3}",result);
+            Console.WriteLine("{0:f3}",Distance(firstPoint.x, firstPoint.y, secondsPoint.x, secondsPoint.y));
+        }
+        static public double Distance  (double x, double y, double x1, double y1)
+        {
+            return Math.Sqrt((x - x1) * (x - x1) + (y - y1) * (y - y1));
+        }
+        class Point
+        {
+            public double x { get; set; }
+            public double y { get; set; }
         }
     }
 }
